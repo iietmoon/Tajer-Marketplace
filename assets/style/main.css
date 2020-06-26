@@ -1,0 +1,67 @@
+/*----------------------------------------------
+ => styleSheet list
+    ```````````````
+  1) General
+  2) Navbar Section
+
+-----------------------------------------------*/
+/*===============
+  External helpers
+================*/
+@import url('https://fonts.google.com/specimen/Tajawal?subset=arabic#standard-styles');
+
+/*===============
+ 1) General
+================*/
+:root {
+    --bg-color: #ffee22;
+    --txt-color: #222222; 
+    --txt-color-hover: #535353; 
+}
+body {
+    font-family: Tajawal;
+}
+.main-nav-pd{
+    padding: 0 150px;
+}
+.left-divider{
+  border-left: 1px solid #ccc;
+}
+
+/*===============
+ 2) Navbar Section
+================*/
+
+/*Top ship + discount */
+.ns-bg{
+   background-color: var(--bg-color);
+}
+.ns-text-a{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-weight: 600;
+    font-family: Tajawal;
+}
+.ns-text-a:hover{
+    text-decoration: none;
+    color: var(--txt-color);
+}
+.ns-text-i{
+    font-size: 15px;
+}
+/* Main nav */
+.nm-text-a{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--txt-color);
+    font-weight: 700;
+    font-family: Tajawal;
+}
+.nm-text-a:hover{
+    text-decoration: none;
+    color: var(--txt-color-hover);
+}
+.nm-text i{
+    font-size: 20px;
+}
