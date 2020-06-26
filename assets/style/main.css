@@ -3,6 +3,7 @@
     ```````````````
   1) General
   2) Navbar Section
+  3) Mobile navbar section
 
 -----------------------------------------------*/
 /*===============
@@ -106,4 +107,33 @@ body {
 }
 .nm-form-brand{
     font-size: 25px;
+}
+/* ---- Hide the menu in Mobiles ---*/
+@media screen and (max-width: 950px) {
+    #main-navbar{
+        display: none;
+    }
+}
+
+/*===============
+ 3) Mobile Navbar Section
+================*/
+.mobile-nav-pd{
+  height: 50px;
+}
+.right-ico{
+  right: 5px;
+  position: relative;
+  float: right;
+}
+.left-ico{
+  left: 5px;
+  position: relative;
+  float: left;
+}
+/* ---- Hide the menu in Mobiles ---*/
+@media screen and (min-width: 950px) {
+    #mobile-navbar{
+        display: none;
+    }
 }

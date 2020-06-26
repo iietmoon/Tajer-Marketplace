@@ -17,7 +17,7 @@
   </head>
   <body>
      <!-- Navbar Section -->
-     <section class="ns-bg pb-1">
+     <section class="ns-bg pb-1" id="main-navbar">
         <!-- Ship + Discount -->
         <nav class="ns-bg main-nav-pd pt-2" dir="ltr">
           <ul class="list-inline">
@@ -60,9 +60,22 @@
         </nav>
      </section>
 
-
-
-
+     <!--Mobile Navbar Section -->
+     <section class="ns-bg pb-1" id="mobile-navbar">
+        <!-- Navigation -->
+        <nav class="ns-bg mobile-nav-pd pt-1" dir="ltr">
+          <ul class="list-inline">
+                <li class="list-inline-item left-ico pt-2">
+                  <a class="nm-text-a pr-2" href="#"><img src="helpers/bootstrap-icons/cart2.svg" alt="" width="30" height="30" title="Bootstrap" class="pr-1"></a>
+                  <a class="nm-text-a" href="#"><img src="helpers/bootstrap-icons/search.svg" alt="" width="27" height="27" title="Bootstrap" class="pr-1"></a> 
+                </li>
+                <li class="list-inline-item right-ico pt-1"> 
+                   <img src="upload/main/logo.png" alt="tajer logo" width="70" />
+                   <a class="nm-text-a pl-2" href="#"><img src="helpers/bootstrap-icons/list.svg" alt="" width="30" height="30" title="Bootstrap" class="pr-1"></a>
+                </li>
+          </ul>
+        </nav>
+     </section>
     <!-- include the footer -->
     <?php include 'include/footer.php'?>
 
