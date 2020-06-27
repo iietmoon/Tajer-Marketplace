@@ -4,6 +4,8 @@
   1) General
   2) Navbar Section
   3) Mobile navbar section
+  4) Mega Menu "component"
+  5) Carousel "Promotion Slider"
 
 -----------------------------------------------*/
 /*===============
@@ -19,12 +21,13 @@
     --txt-color: #222222; 
     --txt-color-hover: #696969;
     --text-color-second: #929292;
+    --color-orange: #e86d0b;
 }
 body {
     font-family: Tajawal;
 }
 .main-nav-pd{
-    padding: 0 100px;
+    padding: 0 50px;
 }
 .left-divider{
   border-left: 1px solid rgba(0, 0, 0, 0.205);
@@ -37,6 +40,19 @@ body {
 }
 .a-weight-bold{
     font-weight: 800;
+}
+.right-content{
+    right: 0;
+    position: relative;
+    float: right;
+  }
+.left-content{
+    left: 0;
+    position: relative;
+    float: left;
+  }
+.orange-bg{
+    background-color: var(--color-orange);
 }
 /*===============
  2) Navbar Section
@@ -108,6 +124,25 @@ body {
 .nm-form-brand{
     font-size: 25px;
 }
+.none-hover{
+    background-color: none;
+}
+/* ---- Responsive ---*/
+@media screen and (max-width: 1350px) {
+    .nm-form{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nm-form{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .nm-form{
+        width: 40%;
+    }
+}
 /* ---- Hide the menu in Mobiles ---*/
 @media screen and (max-width: 950px) {
     #main-navbar{
@@ -136,4 +171,41 @@ body {
     #mobile-navbar{
         display: none;
     }
+}
+
+/*===============
+ 4) Mega menu
+================*/
+
+.mgm-text{
+    color: var(--txt-color);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Tajawal;
+    transition: 0.7s;
+}
+.mgm-text:hover{
+    color: var(--txt-color-hover);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Tajawal;
+    text-decoration: none;
+    transition: 1s;
+}
+.mgm-shadow{
+    -webkit-box-shadow: 0px 5px 73px -27px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 73px -27px rgba(0,0,0,1);
+    box-shadow: 0px 5px 73px -27px rgba(0,0,0,1);
+}
+.mgm-dropdown-wd{
+    width: 350px;
+}
+/* ============ desktop view .end// ============ */
+
+/*===============
+ 5) Carousel
+================*/
+
+.carousel-height{
+    height: 350px;
 }
