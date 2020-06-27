@@ -200,8 +200,12 @@ body {
 .mgm-dropdown-wd{
     width: 350px;
 }
-/* ============ desktop view .end// ============ */
-
+/* ---- Hide the menu in Mobiles ---*/
+@media screen and (max-width: 970px) {
+    #mega-menu{
+        display: none;
+    }
+}
 /*===============
  5) Carousel
 ================*/
