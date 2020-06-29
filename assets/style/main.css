@@ -21,6 +21,7 @@
     --txt-color: #222222; 
     --txt-color-hover: #696969;
     --text-color-second: #929292;
+    --text-color-muted: #a7a7a7;
     --color-orange: #e86d0b;
 }
 body {
@@ -208,6 +209,11 @@ body {
     font-family: Tajawal;
     text-decoration: none;
     list-style: none;
+}
+.nmm-icon-muted{
+    background-color: var(--text-color-muted);
+    border-radius: 3px;
+    padding: 5px 10px;
 }
 /* ---- Hide the menu in Mobiles ---*/
 @media screen and (min-width: 950px) {

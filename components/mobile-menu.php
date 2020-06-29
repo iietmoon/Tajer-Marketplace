@@ -76,14 +76,240 @@
             </div>
     </div>
     <!-- Navigation menu -->
-    <div class="text-right pr-3 border-top pt-3">
-      <!-- Title -->
-      <h1 class="nmm-text-h2 nmm-text-li">جميع الفئات</h1>
-      <!-- List Items -->
-      <div class="pt-2">
-        
+    <div class="text-right pr-3 pt-3">
+      <!-- List -->
+
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الأكثر طلبًا</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
       </div>
+      <!-- end of Item -->
+      <br>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الصحة و الجمال</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الأحذية والملابس</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">اكسسوارات الموضة</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">المنزل والمكتب</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الهاتف والكمبيوتر اللوحي</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الأجهزة المنزلية</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">كمبيوتر محمول وملحقاته</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">سوبرماركت</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الرياضة والترفيه</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">التلفزيون والالكترونيات</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">رعاية الطفل والطفل</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
+      <div class="pt-2 pb-2 border-top">
+          <a>
+            <div class="right-ico">
+              <p class="nmm-text-list">الفئات الأخرى</p>
+            </div>
+            <div class="left-ico">
+              <img src="helpers/bootstrap-icons/chevron-left.svg" alt="" width="20" height="20" title="Bootstrap" class="pr-1">
+            </div>
+          </a>
+      </div>
+      <!-- end of Item -->
+      <!-- end of Item -->
+      <div>
+        <br>
+      </div>
+      <!-- item -->
       
+      <!-- end of Item -->
+    </div>
+    <div class="pt-5 text-right" dir="rtl">
+      <!-- Menu icons inline -->
+           <div class="container justify-content-center pt-3 border-top text center">
+                <div class="row row-cols-4">
+                     <div class="col">
+                       <div class="text-center">
+                         <a class="nm-text-a nmm-icon-muted text-center" class="navbar-toggler" type="button" data-trigger="#main_nav">
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                        
+                     </div>
+                     <div class="col">
+                       <div class="text-center">
+                         <a class="nm-text-a nmm-icon-muted text-center" class="navbar-toggler" type="button" data-trigger="#main_nav">
+                            <i class="fa fa-question" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                     <div class="col">
+                       <div class="text-center">
+                         <a class="nm-text-a nmm-icon-muted text-center" class="navbar-toggler" type="button" data-trigger="#main_nav">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                         </a>
+                       </div>
+                     </div>
+                </div>
+            </div>
     </div>
   </div>
   <!-- navbar-collapse.// -->
