@@ -6,7 +6,7 @@
   3) Mobile navbar section
   4) Mega Menu "component"
   5) Carousel "Promotion Slider"
-
+  6) products-wp
 -----------------------------------------------*/
 /*===============
   External helpers
@@ -215,6 +215,9 @@ body {
     border-radius: 3px;
     padding: 5px 10px;
 }
+.mobile-menu-index{
+    z-index: 99;
+}
 /* ---- Hide the menu in Mobiles ---*/
 @media screen and (min-width: 950px) {
     #mobile-navbar{
@@ -313,4 +316,63 @@ body {
     #carousel-mobile{
         display: none;
     }
+}
+
+
+
+/*===============
+ 6) products-wp
+================*/
+.product-wp{
+  padding: 15px 30px;
+}
+.product-wp-shadow{
+   -webkit-box-shadow: 0px 0px 19px -1px rgba(199,199,199,1);
+   -moz-box-shadow: 0px 0px 19px -1px rgba(199,199,199,1);
+    box-shadow: 0px 0px 19px -1px rgba(199,199,199,1);
+}
+.product-wp-title{
+    color: var(--txt-color);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Tajawal;
+    transition: 0.7s;
+}
+.product-wp-counter{
+    background-color: var(--color-orange);
+    padding: 3px 10px;
+    border-radius: 1px;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Tajawal;
+    transition: 0.7s;
+}
+.product-wp-p{
+   -webkit-box-shadow: 0px 0px 12px 1px rgba(186,186,186,1);
+   -moz-box-shadow: 0px 0px 12px 1px rgba(186,186,186,1);
+   box-shadow: 0px 0px 12px 1px rgba(186,186,186,1);
+}
+.product-wp-p-title{
+    color: var(--txt-color);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Tajawal;
+    transition: 0.7s;
+}
+.product-wp-p-price{
+    color: var(--txt-color);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Tajawal;
+    transition: 0.7s;
+}
+.product-wp-p-discount{
+    background-color: var(--color-orange);
+    padding: 2px 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Tajawal;
+    transition: 0.7s;
 }

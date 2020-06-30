@@ -1,7 +1,7 @@
 <!----------------------------------------------
              Mobile Menu component
 ---------------------------------------------->
-<nav class="navbar navbar-dark pt-2">
+<nav class="navbar navbar-dark pt-2 mobile-menu-index">
     <!-- First Part -->
     <div class="list-inline-item right-ico pt-1"> 
         <!-- logo and Menu icon -->

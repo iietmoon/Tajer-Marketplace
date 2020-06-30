@@ -33,3 +33,6 @@ $("body").removeClass("offcanvas-active");
 
 }); 
     </script>
+
+    <!-- Counter Down for "weekly promotions" -->
+    <script src="assets/javascript/counter-time-down.js"></script>

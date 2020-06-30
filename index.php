@@ -34,6 +34,9 @@
      <?php include 'components/carousel-ads.php' ?>
      <?php include 'components/carousel-ads-mobile.php' ?>
 
+     <!-- "Weekly promotion" -->
+     <?php include 'components/product-wp.php' ?>
+
 
 
 
