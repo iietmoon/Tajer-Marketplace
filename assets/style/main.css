@@ -305,7 +305,12 @@ body {
 }
 /* ---- Hide in Mobiles ---*/
 @media screen and (max-width: 970px) {
-    #carouselExampleIndicators{
+    #carousel-desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 970px) {
+    #carousel-mobile{
         display: none;
     }
 }

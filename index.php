@@ -32,6 +32,7 @@
 
      <!-- Carousel -->
      <?php include 'components/carousel-ads.php' ?>
+     <?php include 'components/carousel-ads-mobile.php' ?>
 
 
 
