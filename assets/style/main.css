@@ -26,6 +26,7 @@
 }
 body {
     font-family: Tajawal;
+    background-color: rgb(202, 202, 202);
 }
 .main-nav-pd{
     padding: 0 50px;
@@ -324,12 +325,12 @@ body {
  6) products-wp
 ================*/
 .product-wp{
-  padding: 15px 30px;
+    padding: 25px 50px;
 }
 .product-wp-shadow{
-   -webkit-box-shadow: 0px 0px 19px -1px rgba(199,199,199,1);
-   -moz-box-shadow: 0px 0px 19px -1px rgba(199,199,199,1);
-    box-shadow: 0px 0px 19px -1px rgba(199,199,199,1);
+    -webkit-box-shadow: 0px 0px 8px 5px rgb(214, 214, 214);
+    -moz-box-shadow: 0px 0px 8px 5px rgb(214, 214, 214);
+    box-shadow: 0px 0px 8px 5px rgb(214, 214, 214);
 }
 .product-wp-title{
     color: var(--txt-color);
@@ -352,6 +353,19 @@ body {
    -webkit-box-shadow: 0px 0px 12px 1px rgba(186,186,186,1);
    -moz-box-shadow: 0px 0px 12px 1px rgba(186,186,186,1);
    box-shadow: 0px 0px 12px 1px rgba(186,186,186,1);
+   
+}
+.product-wp-p:hover{
+    -webkit-box-shadow: 0px 0px 12px 1px rgb(158, 158, 158);
+    -moz-box-shadow: 0px 0px 12px 1px rgb(158, 158, 158);
+    box-shadow: 0px 0px 12px 1px  rgb(158, 158, 158);
+ }
+.product-wp-p-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-wp-p-img img{
+    height: 175px;   
 }
 .product-wp-p-title{
     color: var(--txt-color);
@@ -375,4 +389,7 @@ body {
     font-weight: 600;
     font-family: Tajawal;
     transition: 0.7s;
+}
+.product-wp-more{
+
 }
